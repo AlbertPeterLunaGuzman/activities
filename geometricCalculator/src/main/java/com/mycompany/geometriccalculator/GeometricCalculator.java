@@ -44,7 +44,7 @@ public class GeometricCalculator {
             System.out.print("Eneter the value for Base: ");
             double side = squareScanner.nextDouble();
             
-            square square = new square(6.0);
+            square square = new square(side);
             square.displayInfo();
     
         }
